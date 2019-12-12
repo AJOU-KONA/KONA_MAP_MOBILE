@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/address_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:orderInCategory="1"
+        android:title="@string/logic_address"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/addresssearch"
+        android:orderInCategory="100"
+        android:title="@string/Search_address"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/build_search"
+        android:orderInCategory="101"
+        android:title="@string/build_search"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/logic_address"
+        android:orderInCategory="102"
+        android:title="@string/logic_address"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/address_set"
+        android:orderInCategory="102"
+        android:title="@string/address_set"
+        app:showAsAction="never" />
+</menu>
